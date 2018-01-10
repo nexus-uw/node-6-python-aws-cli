@@ -1,5 +1,5 @@
 
-FROM node:8
+FROM node:6.10
  RUN apt-get update \
    && apt-get install -y python-dev zip jq \
    && cd /tmp \
